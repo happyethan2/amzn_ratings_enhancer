@@ -8,7 +8,7 @@
 ---
 
 ### Installation
-1. Download and unzip the repository (if zipped).
+1. Download and unzip (if zipped) all repository contents into a single folder.
 2. Navigate to `chrome://extensions` in your browser.
 3. Enable **Developer Mode**.
 4. Click **Load unpacked** and select the project folder.
