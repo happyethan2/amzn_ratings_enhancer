@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "Amazon Rating Enhancer",
+  "version": "0.1.6",
+  "description": "Bayesian-adjusted rating badge for Amazon (quantile coloring; SERP\u2192PDP color carry; better spacing).",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.amazon.com/*",
+        "https://www.amazon.com.au/*",
+        "https://www.amazon.co.uk/*",
+        "https://www.amazon.ca/*",
+        "https://www.amazon.de/*",
+        "https://www.amazon.fr/*",
+        "https://www.amazon.it/*",
+        "https://www.amazon.es/*",
+        "https://www.amazon.nl/*",
+        "https://www.amazon.co.jp/*",
+        "https://www.amazon.in/*",
+        "https://www.amazon.com.mx/*",
+        "https://www.amazon.com.br/*",
+        "https://www.amazon.com.tr/*",
+        "https://www.amazon.sg/*",
+        "https://www.amazon.ae/*",
+        "https://www.amazon.sa/*",
+        "https://www.amazon.se/*",
+        "https://www.amazon.pl/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

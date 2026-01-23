@@ -1,0 +1,19 @@
+.arenh-badge {
+  display: block;
+  width: fit-content;
+  margin-top: 6px;
+  margin-bottom: 6px; /* general breathing room */
+  padding: 2px 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 1.25;
+  border: 1px solid rgba(0,0,0,.08);
+  box-shadow: 0 1px 1px rgba(0,0,0,.06);
+}
+/* Extra gap above horizontal rules on PDP */
+.arenh-badge[data-arenh-loc="pdp"] {
+  margin-bottom: 12px;
+}
+.arenh-row { display: inline-flex; gap: 6px; align-items: baseline; }
+.arenh-key { opacity: .7; }
+.arenh-star { font-weight: 700; }
