@@ -1,9 +1,7 @@
 # Amazon Rating Enhancer
 
 ### Overview
-**The Problem:** Ratings on Amazon are useful, but they could be *more* useful. We often look for listings with high volume, not just high ratings. A single 5-star review can misleadingly outrank a 4.8-star product supported by thousands of buyers.
-
-**The Solution:** This extension uses **Bayesian adjustment** to calculate a refined score by weighting ratings against review counts. It injects dynamic, color-coded badges into search results and product pages based on **quantile ranking** to show how a product performs relative to its current competitors. You can also **sort search results by adjusted score** with a single click, so the strongest listings jump straight to the top.
+This project was inspired by the [3b1b](https://members.3blue1brown.com/posts/which-rating-is-34856305) video about how to balance review count with review score when it comes to just about anything. In this case we're applying it to Amazon ratings. Essentially, we calculate a Bayesian adjusted rating which is inserted into the product listing on any Amazon search results page. It sits below the listing next to the unadjusted rating. There's also a convenient button in the bottom LHS of the search results that allow you to sort these listings in descending order of their adjusted rating (higest at the top) which is super useful for cutting out the rubbish and sponsored results.
 
 ---
 
