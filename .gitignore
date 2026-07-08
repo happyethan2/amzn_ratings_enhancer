@@ -1,0 +1,7 @@
+# Local DOM captures & inspector reports (large, personal — not part of the extension)
+samples/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp

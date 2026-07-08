@@ -7,11 +7,23 @@
 
 ---
 
+### Features
+* **Adjusted-rating badges** on search results and product pages, color-coded by quantile rank so you can see at a glance how each product compares to its on-page competitors.
+* **Sort by adjusted rating** — a floating **⇅ Adj sort** button (bottom-left on search pages) reorders the results best-first in a single click, so you no longer have to scroll the whole page hunting for the strong listings.
+    * Products with no ratings sink to the bottom, and duplicate listings (e.g. a sponsored and organic copy of the same item) are shown once.
+    * Fully reversible — click again to restore Amazon's original order. Your choice is remembered for the current tab.
+
+---
+
 ### Installation
 1. Download and unzip (if zipped) all repository contents into a single folder.
 2. Navigate to `chrome://extensions` in your browser.
 3. Enable **Developer Mode**.
 4. Click **Load unpacked** and select the project folder.
+
+### Usage
+* Browse or search Amazon as usual — adjusted-rating badges appear automatically.
+* On a search results page, click the **⇅ Adj sort** button in the bottom-left corner to toggle sorting by adjusted rating on and off.
 
 ### Compatibility
 * **Browsers:** Chrome, Brave, Edge, and other Chromium based browsers.

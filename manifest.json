@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Amazon Rating Enhancer",
-  "version": "0.1.6",
-  "description": "Bayesian-adjusted rating badge for Amazon (quantile coloring; SERP\u2192PDP color carry; better spacing).",
+  "version": "0.2.0",
+  "description": "Bayesian-adjusted rating badges for Amazon, plus a one-click toggle to sort search results by adjusted rating.",
   "icons": {
     "128": "icon128.png"
   },
